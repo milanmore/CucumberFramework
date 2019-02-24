@@ -33,6 +33,7 @@ public class login {
 		System.out.println("hello1");
 		System.out.println("hello2");
 		System.out.println("hello3");
+		System.out.println("hello4");
 	}
 
 	@When("^user logs in with username as \"([^\"]*)\" and password as \"([^\"]*)\"$")
