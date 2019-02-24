@@ -29,6 +29,7 @@ public class login {
 		Thread.sleep(100);
 		generic.setStepCounter();
 		login.UserIsOnLoginPage();
+		System.out.println("hello");
 	}
 
 	@When("^user logs in with username as \"([^\"]*)\" and password as \"([^\"]*)\"$")
